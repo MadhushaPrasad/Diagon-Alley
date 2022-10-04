@@ -8,6 +8,6 @@ Happy Hacktober! :octocat: This is a beginner friendly repository made specifica
 
 ## Contributors
 
-<a href="https://github.com/sliitwomeninfoss/wif-web/graphs/contributors">
+<a href="https://github.com/MadhushaPrasad/Book-Shop/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MadhushaPrasad/Book-Shop" />
 </a>
