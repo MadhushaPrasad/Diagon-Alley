@@ -9,7 +9,8 @@ Happy Hacktober! :octocat: This is a beginner friendly repository made specifica
 
 ## What is Hacktoberfest? 🔖
 </br>
-Hacktoberfest is one such event from [Digital Ocean](https://hacktoberfest.digitalocean.com/) that encourages you to contribute back to your favorite projects. In exchange for your contributions, you either get a gift from DigitalOcean, or you can choose to plant a tree instead.
+Hacktoberfest is one such event from <a href="https://hacktoberfest.digitalocean.com/" target="_blank">Digital Ocean</a>
+ that encourages you to contribute back to your favorite projects. In exchange for your contributions, you either get a gift from DigitalOcean, or you can choose to plant a tree instead.
 </br> 
 
 ## Everything you really need to know about Hacktoberfest✨
@@ -54,7 +55,7 @@ You can contribute to the project on github. Here's how you can do it.
   ```
     git clone https://github.com/<YOUR_USERNAME>/Book-Shop.git 
   ```
-3. Create a branch which includes your name (i.e. `Nufri` or `nufri-feature-dev`) and checkout. See the guide for the more details [Link](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
+3. Create a branch which includes your name (i.e. `Nufri` or `nufri-feature-dev`) and checkout. _See the guide for the more details [Link](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)_
   ```
   git checkout -b feature/<BRANCH_NAME>
   ```
@@ -71,7 +72,7 @@ You can contribute to the project on github. Here's how you can do it.
    _See the guide for more
    details [Link](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)_
    
-7. That's all. Your contribution will be reviewed and merged with the main repository 🙌
+7. Your contribution will be reviewed and merged with the main repository 🙌
 </br>
 
 ## Contributors 🌱</br>
