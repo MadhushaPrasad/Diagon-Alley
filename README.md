@@ -40,7 +40,7 @@ We believe Diagon Alley can play a role in creating this future.
 `Diagon Alley is an open library for every tech student to level up their tech knowledge by reading e-books'`
 </br>
 
-🤝
+
 In this project, we are developing a web application using basic technologies.</br>
   🏷️ HTML 5   
   🏷️ CSS 3  
@@ -85,3 +85,4 @@ You can contribute to the project on github. Here's how you can do it.
 
 <a href="https://www.w3.org/html/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/html-5.png"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/css3.png"/> </a><a href="https://www.php.net/" target="_blank"> <img src="https://img.icons8.com/dusk/64/000000/php-logo.png"/>
 
+</br>
