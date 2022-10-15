@@ -1,6 +1,6 @@
-# Book-Shop
+# Diagon Alley - Open library for tech lovers 🏫
 
-✨ hacktoberfest 2022 <br>
+✨ Hacktoberfest 2022 <br>
 🌱 Contributing to hacktoberfest 2022 <br>
 Welcome to hacktoberfest 2022 Public Repository. 👨🏻‍💻 <br>
 
@@ -8,14 +8,14 @@ Happy Hacktober! :octocat: This is a beginner friendly repository made specifica
 
  </br>
 
-## What is Hacktoberfest? 
+## What is Hacktoberfest? 🔖
 </br>
 Hacktoberfest is one such event from [Digital Ocean](https://hacktoberfest.digitalocean.com/) that encourages you to contribute back to your favorite projects. In exchange for your contributions, you either get a gift from DigitalOcean, or you can choose to plant a tree instead.
 </br> </br>
 
 ## Everything you really need to know about Hacktoberfest✨
 
-  - All rules and requirements for contributors remain the same as last year. Make sure to register between Sept. 26th and Oct. 31st.
+  - Make sure to register between Sept. 26th and Oct. 31st using https://hacktoberfest.com/
   - PR/MRs can be submitted to participating projects on both GitHub and GitLab, between Oct. 1st and 31st
   - Events will be held virtually and can be held in a variety of formats such as a meetup, live stream, or office hours.
   - If you complete Hacktoberfest, you can opt not to receive a reward kit and have a tree donated instead.
@@ -25,6 +25,27 @@ Hacktoberfest is one such event from [Digital Ocean](https://hacktoberfest.digit
   ## How to contribute? 🌱
 [Click here to scroll to section 👇](#how-to-contribute-)
 
+## What's going here? ✅
+
+Libraries are essential to the development of knowledge.
+That future begins right now.
+
+
+Our goal is a future where knowledge is more widely available and more voices are heard.
+Where resources and solutions can be "hacked," shared, and networked.
+Where information not only offers solutions, but also inspires and empowers.
+We believe Diagon Alley can play a role in creating this future. 
+</br>
+
+`Diagon Alley is an open library for every tech student to level up their tech knowledge by reading e-books'`
+</br>
+
+
+In this project, we are developing a web application using basic technologies.
+  🏷️ HTML 5   
+  🏷️ CSS 3  
+  🏷️ PHP   
+  🏷️ MySql
 ## How to contribute? 🤝
 
 You can contribute to the project on github. Here's how you can do it.
