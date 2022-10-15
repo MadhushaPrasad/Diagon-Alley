@@ -55,12 +55,18 @@ You can contribute to the project on github. Here's how you can do it.
 3. Create a branch which includes your name (i.e. `Nufri` or `nufri-feature-dev`)
 4. Write your code/make changes
 5. Review everything, commit and push to your branch on your forked repository
-6. Create a pull request from your branch to the `development` branch on the base repository (⛔️ Do not create PR to the main branch)
+6. Create a pull request from your branch to the `main` branch on the base repository 
 7. That's all. Your contribution will be reviewed and merged with the main repository 🙌
+</br>
 
-
-## Contributors
+## Contributors 🌱</br>
 
 <a href="https://github.com/MadhushaPrasad/Book-Shop/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MadhushaPrasad/Book-Shop" />
 </a>
+</br></br>
+ <hr>
+
+<a href="https://www.w3.org/html/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/html-5.png"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/css3.png"/> </a><a href="https://www.php.net/" target="_blank"> <img src="https://img.icons8.com/dusk/64/000000/php-logo.png"/>
+
+ <hr>
