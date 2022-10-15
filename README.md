@@ -70,12 +70,10 @@ You can contribute to the project on github. Here's how you can do it.
 6. Create a pull request from your branch to the `main` branch on the base repository 
   Make a Pull Request.
    _See the guide for more
-   details [Link](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)_
+   details [Link](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)_ and requesting a pull request review. _See the guide for the more details [Link](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review)_ 
 
    
-7. Requesting a pull request review. _See the guide for the more details [Link](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review)_ 
-   
-8. Your contribution will be reviewed and merged with the main repository 🙌
+7.  Your contribution will be reviewed and merged with the main repository 🙌
 </br>
 
 ## 🌱 Contributors </br>
