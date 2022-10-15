@@ -1,19 +1,19 @@
-# Diagon Alley - Open library for tech lovers 🏫
+# 🏫 Diagon Alley - Open library for tech lovers 
 
 ✨ Hacktoberfest 2022 <br>
 🌱 Contributing to hacktoberfest 2022 <br>
 Welcome to hacktoberfest 2022 Public Repository. 👨🏻‍💻 <br>
 
 Happy Hacktober! :octocat: This is a beginner friendly repository made specifically for Hacktoberfest that helps you get your first PR.
-
  </br>
 
-## What is Hacktoberfest? 🔖
+## 🔖 What is Hacktoberfest? 
 </br>
-Hacktoberfest is one such event from [Digital Ocean](https://hacktoberfest.digitalocean.com/) that encourages you to contribute back to your favorite projects. In exchange for your contributions, you either get a gift from DigitalOcean, or you can choose to plant a tree instead.
-</br> </br>
+Hacktoberfest is one such event from <a href="https://hacktoberfest.digitalocean.com/" target="_blank">Digital Ocean</a>
+ that encourages you to contribute back to your favorite projects. In exchange for your contributions, you either get a gift from DigitalOcean, or you can choose to plant a tree instead.
+</br> 
 
-## Everything you really need to know about Hacktoberfest✨
+## ✨ Everything you really need to know about Hacktoberfest
 
   - Make sure to register between Sept. 26th and Oct. 31st using https://hacktoberfest.com/
   - PR/MRs can be submitted to participating projects on both GitHub and GitLab, between Oct. 1st and 31st
@@ -21,11 +21,11 @@ Hacktoberfest is one such event from [Digital Ocean](https://hacktoberfest.digit
   - If you complete Hacktoberfest, you can opt not to receive a reward kit and have a tree donated instead.
   - Dive into hacktoberfest full participation guide at https://hacktoberfest.com/participation 
   </br>
-
-  ## How to contribute? 🌱
+  
+  ## 🤝 How to contribute? 
 [Click here to scroll to section 👇](#how-to-contribute-)
 
-## What's going here? ✅
+## ✅ What's going here? 
 
 Libraries are essential to the development of knowledge.
 That future begins right now.
@@ -40,26 +40,42 @@ We believe Diagon Alley can play a role in creating this future.
 `Diagon Alley is an open library for every tech student to level up their tech knowledge by reading e-books'`
 </br>
 
-
+🤝
 In this project, we are developing a web application using basic technologies.</br>
   🏷️ HTML 5   
   🏷️ CSS 3  
   🏷️ PHP   
   🏷️ MySql
-## How to contribute? 🤝
+## 🤝 How to contribute? 
 
 You can contribute to the project on github. Here's how you can do it.
 
 1. Fork the repository
 2. Clone it on your local machine
-3. Create a branch which includes your name (i.e. `Nufri` or `nufri-feature-dev`)
+  ```
+    git clone https://github.com/<YOUR_USERNAME>/Book-Shop.git 
+  ```
+3. Create a branch which includes your name (i.e. `Nufri` or `nufri-feature-dev`) and checkout. _See the guide for the more details [Link](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)_
+  ```
+  git checkout -b feature/<BRANCH_NAME>
+  ```
 4. Write your code/make changes
 5. Review everything, commit and push to your branch on your forked repository
+  ```
+  git add .
+  git commit -m "<Commit message>"
+  git push --set-upstream origin feature/<BRANCH_NAME>
+
+```
 6. Create a pull request from your branch to the `main` branch on the base repository 
-7. That's all. Your contribution will be reviewed and merged with the main repository 🙌
+  Make a Pull Request.
+   _See the guide for more
+   details [Link](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)_
+   
+7. Your contribution will be reviewed and merged with the main repository 🙌
 </br>
 
-## Contributors 🌱</br>
+## 🌱 Contributors </br>
 
 <a href="https://github.com/MadhushaPrasad/Book-Shop/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MadhushaPrasad/Book-Shop" />
@@ -69,4 +85,3 @@ You can contribute to the project on github. Here's how you can do it.
 
 <a href="https://www.w3.org/html/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/html-5.png"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/css3.png"/> </a><a href="https://www.php.net/" target="_blank"> <img src="https://img.icons8.com/dusk/64/000000/php-logo.png"/>
 
- <hr>
