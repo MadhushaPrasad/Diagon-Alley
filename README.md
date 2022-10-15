@@ -77,8 +77,8 @@ You can contribute to the project on github. Here's how you can do it.
 
 ## 🌱 Contributors </br>
 
-<a href="https://github.com/MadhushaPrasad/Book-Shop/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=MadhushaPrasad/Book-Shop" />
+<a href="https://github.com/MadhushaPrasad/Diagon-Alley/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MadhushaPrasad/Diagon-Alley" />
 </a>
 </br></br>
  <hr>
