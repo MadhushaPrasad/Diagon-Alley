@@ -19,7 +19,7 @@ Hacktoberfest is one such event from [Digital Ocean](https://hacktoberfest.digit
   - PR/MRs can be submitted to participating projects on both GitHub and GitLab, between Oct. 1st and 31st
   - Events will be held virtually and can be held in a variety of formats such as a meetup, live stream, or office hours.
   - If you complete Hacktoberfest, you can opt not to receive a reward kit and have a tree donated instead.
-  - Dive into our full participation guide at https://hacktoberfest.com/participation 
+  - Dive into hacktoberfest full participation guide at https://hacktoberfest.com/participation 
   </br>
 
   ## How to contribute? 🌱
@@ -41,7 +41,7 @@ We believe Diagon Alley can play a role in creating this future.
 </br>
 
 
-In this project, we are developing a web application using basic technologies.
+In this project, we are developing a web application using basic technologies.</br>
   🏷️ HTML 5   
   🏷️ CSS 3  
   🏷️ PHP   
