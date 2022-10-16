@@ -26,9 +26,6 @@ Hacktoberfest is one such event from <a href="https://hacktoberfest.digitalocean
 [Click here to scroll to section 👇](#how-to-contribute-)
 </br>
 
-## How to contribute to the app?
-[Click here to scroll to section 👇](#how-to-contribute-)
-
 ## ✅ What's going here? 
 
 Libraries are essential to the development of knowledge.
