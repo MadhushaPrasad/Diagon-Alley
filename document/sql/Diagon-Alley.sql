@@ -2,6 +2,7 @@
 CREATE DATABASE DiagonAlley;
 USE DiagonAlley;
 
+/* Admin user TABLE */
 CREATE TABLE adminUser(
 	userEmail VARCHAR(100) NOT NULL,
 	userName VARCHAR(50) NOT NULL,
@@ -11,12 +12,14 @@ CREATE TABLE adminUser(
 	CONSTRAINT PRIMARY KEY(userEmail)
 );
 
+/* Category TABLE */
 CREATE TABLE category(
 	catID INT AUTO_INCREMENT NOT NULL,
 	catName VARCHAR(100) NOT NULL,
 	CONSTRAINT PRIMARY KEY(catID)
 );
 
+/* book TABLE */
 CREATE TABLE book(
 	bookID INT AUTO_INCREMENT NOT NULL,
 	catID INT NOT NULL,
@@ -28,6 +31,7 @@ CREATE TABLE book(
 	ON DELETE CASCADE ON UPDATE CASCADE
 );
 
+/* publishDetails TABLE */
 CREATE TABLE publishDetails(
 	bookID INT NOT NULL,
 	userEmail VARCHAR(100) NOT NULL,
@@ -38,12 +42,14 @@ CREATE TABLE publishDetails(
     ON DELETE CASCADE ON UPDATE CASCADE
 );
 
+/* author TABLE */
 CREATE TABLE author(
 	authorID INT AUTO_INCREMENT NOT NULL,
 	AuthorName VARCHAR(150) NOT NULL,
 	CONSTRAINT PRIMARY KEY(authorID)
 );
 
+/* feedBack TABLE */
 CREATE TABLE feedBack(
 	bookID INT NOT NULL,
 	authorID INT NOT NULL,
