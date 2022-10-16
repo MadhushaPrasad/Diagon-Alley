@@ -23,7 +23,7 @@ Hacktoberfest is one such event from <a href="https://hacktoberfest.digitalocean
   </br>
   
   ## 🤝 How to contribute? 
-[Click here to scroll to section 👇](#how-to-contribute-)
+[Click here to scroll to section 👇](#-how-to-contribute-1)
 </br>
 
 ## ✅ What's going here? 
