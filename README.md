@@ -53,7 +53,7 @@ You can contribute to the project on github. Here's how you can do it.
 1. Fork the repository
 2. Clone it on your local machine
   ```
-    git clone https://github.com/<YOUR_USERNAME>/Book-Shop.git
+    git clone https://github.com/<YOUR_USERNAME>/Diagon-Alley.git
   ```
 3. Create a branch which includes your name (i.e. `Nufri` or `nufri-feature-dev`) and checkout. (_See the guide for the more details [Link](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)_)
   ```
