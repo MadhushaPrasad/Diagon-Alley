@@ -46,7 +46,7 @@ In this project, we are developing a web application using basic technologies.</
   🏷️ CSS 3  
   🏷️ PHP   
   🏷️ MySql
-## 🤝 How to contribute? 
+# how-to-contribute 
 
 You can contribute to the project on github. Here's how you can do it.
 
