@@ -90,6 +90,7 @@ You can contribute to the project on github. Here's how you can do it.
 
  <hr>
 
+## 🔖 Figma Link for this project
 <a href="https://www.figma.com/file/dz4JS3XBiGzTDGGIQ3PczB/Diagon-Alley?node-id=20%3A782" target="_blank"> Figma Designs </a>
 
 </br>
