@@ -92,6 +92,7 @@ You can contribute to the project on github. Here's how you can do it.
 </br>
 <a href="https://www.figma.com/file/dz4JS3XBiGzTDGGIQ3PczB/Diagon-Alley?node-id=20%3A782" target="_blank"> Figma Link for this project</a>
 </br>
-![image](https://user-images.githubusercontent.com/5544472/196491229-06cb8dfe-215c-481e-a3a5-56eaea008d6f.png)
+<img src="https://user-images.githubusercontent.com/5544472/196491229-06cb8dfe-215c-481e-a3a5-56eaea008d6f.png">
+
 
 
