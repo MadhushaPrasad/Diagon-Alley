@@ -88,7 +88,7 @@ You can contribute to the project on github. Here's how you can do it.
 
 </br>
 <hr>
-## 🔖 Figma Link for this project
+<h2>🔖 Figma Link for this project></h2>
 </br>
 <a href="https://www.figma.com/file/dz4JS3XBiGzTDGGIQ3PczB/Diagon-Alley?node-id=20%3A782" target="_blank"> Figma Designs </a>
 </br>
