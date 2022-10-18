@@ -87,3 +87,12 @@ You can contribute to the project on github. Here's how you can do it.
 <a href="https://www.w3.org/html/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/html-5.png"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/css3.png"/> </a><a href="https://www.php.net/" target="_blank"> <img src="https://img.icons8.com/dusk/64/000000/php-logo.png"/>
 
 </br>
+<hr>
+<h2>🔖 Figma Designs</h2>
+</br>
+<a href="https://www.figma.com/file/dz4JS3XBiGzTDGGIQ3PczB/Diagon-Alley?node-id=20%3A782" target="_blank"> Figma Link for this project</a>
+</br>
+<img src="https://user-images.githubusercontent.com/5544472/196491229-06cb8dfe-215c-481e-a3a5-56eaea008d6f.png">
+
+
+
