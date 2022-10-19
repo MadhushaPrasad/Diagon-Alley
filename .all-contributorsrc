@@ -48,7 +48,8 @@
         "review",
         "bug",
         "test",
-        "code"
+        "code",
+        "data"
       ]
     }
   ],
