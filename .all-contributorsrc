@@ -3,7 +3,9 @@
   "projectOwner": "MadhushaPrasad",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "files": ["README.md"],
+  "files": [
+    "README.md"
+  ],
   "imageSize": 100,
   "commit": false,
   "contributorsPerLine": 7,
@@ -19,5 +21,18 @@
   },
   "linkToUsage": true,
   "skipCi": true,
-  "contributors": []
+  "contributors": [
+    {
+      "login": "astaStaria99",
+      "name": "Asta staria",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115904780?v=4",
+      "profile": "https://github.com/astaStaria99",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "commitConvention": "angular"
 }
