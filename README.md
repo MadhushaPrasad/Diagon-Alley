@@ -92,6 +92,7 @@ You can contribute to the project on github. Here's how you can do it.
   <tbody>
     <tr>
       <td align="center"><a href="https://github.com/astaStaria99"><img src="https://avatars.githubusercontent.com/u/115904780?v=4" width="100px;" alt=""/><br /><sub><b>Asta staria</b></sub></a></td>
+      <td align="center"><a href="https://github.com/IndudiniThennakoon"><img src="https://avatars.githubusercontent.com/u/99181964?v=4" width="100px;" alt=""/><br /><sub><b>Indudini Thennakoon</b></sub></a></td>
     </tr>
   </tbody>
   <tfoot>
@@ -113,7 +114,7 @@ You can contribute to the project on github. Here's how you can do it.
  <hr>
  
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <a href="https://www.w3.org/html/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/html-5.png"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/css3.png"/> </a><a href="https://www.php.net/" target="_blank"> <img src="https://img.icons8.com/dusk/64/000000/php-logo.png"/>
