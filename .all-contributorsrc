@@ -3,7 +3,9 @@
   "projectOwner": "MadhushaPrasad",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "files": ["README.md"],
+  "files": [
+    "README.md"
+  ],
   "imageSize": 100,
   "commit": false,
   "contributorsPerLine": 7,
@@ -19,5 +21,18 @@
   },
   "linkToUsage": true,
   "skipCi": true,
-  "contributors": []
+  "contributors": [
+    {
+      "login": "jakebolam",
+      "name": "Jake Bolam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3534236?v=4",
+      "profile": "https://jakebolam.com",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "commitConvention": "angular"
 }
