@@ -32,6 +32,24 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "IndudiniThennakoon",
+      "name": "Indudini Thennakoon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99181964?v=4",
+      "profile": "https://github.com/IndudiniThennakoon",
+      "contributions": [
+        "content",
+        "design",
+        "ideas",
+        "maintenance",
+        "mentoring",
+        "question",
+        "review",
+        "bug",
+        "test",
+        "code"
+      ]
     }
   ],
   "commitConvention": "angular"
