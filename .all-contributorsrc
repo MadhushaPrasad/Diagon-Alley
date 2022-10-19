@@ -50,6 +50,24 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "Dhanuka99",
+      "name": "Dhanuka Lakshan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62200532?v=4",
+      "profile": "https://github.com/Dhanuka99",
+      "contributions": [
+        "content",
+        "design",
+        "ideas",
+        "maintenance",
+        "mentoring",
+        "question",
+        "review",
+        "bug",
+        "test",
+        "code"
+      ]
     }
   ],
   "commitConvention": "angular"
