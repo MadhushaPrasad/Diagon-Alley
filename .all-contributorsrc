@@ -50,6 +50,15 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "acenasir",
+      "name": "Ace Nasir",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5544472?v=4",
+      "profile": "http://www.acedit.ca",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "commitConvention": "angular"
