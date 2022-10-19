@@ -23,7 +23,8 @@ Hacktoberfest is one such event from <a href="https://hacktoberfest.digitalocean
   </br>
   
   ## 🤝 How to contribute? 
-[Click here to scroll to section 👇](#how-to-contribute-)
+[Click here to scroll to section 👇](#-how-to-contribute-1)
+</br>
 
 ## ✅ What's going here? 
 
@@ -46,14 +47,14 @@ In this project, we are developing a web application using basic technologies.</
   🏷️ CSS 3  
   🏷️ PHP   
   🏷️ MySql
-## 🤝 How to contribute? 
+## 🤝 How to contribute?
 
 You can contribute to the project on github. Here's how you can do it.
 
 1. Fork the repository
 2. Clone it on your local machine
   ```
-    git clone https://github.com/<YOUR_USERNAME>/Book-Shop.git 
+    git clone https://github.com/<YOUR_USERNAME>/Diagon-Alley.git
   ```
 3. Create a branch which includes your name (i.e. `Nufri` or `nufri-feature-dev`) and checkout. (_See the guide for the more details [Link](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)_)
   ```
