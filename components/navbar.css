@@ -1,0 +1,141 @@
+
+:root{
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    
+}
+
+*{
+   font-family: 'Open Sans', sans-serif ;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    
+    
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+.header{
+    position: fixed;
+    top:0; left:0; right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem ;
+    background:#a5b8cb;
+    box-shadow: var(--box-shadow);
+    
+
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:#010407;
+}
+
+.header .logo i{
+    color:#ff7800;
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    margin:0 1rem;
+    color:rgb(5, 104, 198);
+    text-decoration: none;
+}
+
+.header .navbar a:hover{
+    color:#ff7800;
+}
+
+.header .icons div
+{
+    height: 4.5rem;
+   width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: #c8e1f4;
+    color:#130f40;
+    font-size: 2rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header .icons button{
+    height: auto;
+    width: 100px;
+    line-height: 4.5rem;
+    border: 0px;
+    border-radius: .5rem;
+    background: #f8ae02;
+    color:#c47a0b;
+    font-size: 2rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header .icons div:hover,.header .icons button:hover{
+    background: #ff7800;
+    color:rgb(236, 182, 17);
+}
+
+#menu-btn{
+    display: none;
+}
+
+
+
+.header .MENU{
+    position: absolute;
+    top:110%; 
+    right:-110%;
+    padding:5px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    width:auto;
+    background:#c8e1f4;
+    
+}
+
+.header .MENU.active{
+    right:10px;
+    transition: .4s linear;
+}
+
+.header .MENU .box{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    position: relative;
+    margin:2px 0;
+    
+}
+
+.header .MENU .box a{
+    height:25px;
+    text-decoration: none;
+    font-size:20px;
+    color: #80a8d4;
+    cursor: pointer;
+    
+}
+.header .MENU .box a:hover{
+    
+    height:25px;
+    text-decoration: none;
+    font-size:20px;
+    color: #ff7800;
+    
+    
+}
+
+
