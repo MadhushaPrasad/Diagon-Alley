@@ -1,0 +1,38 @@
+.col-lg-6 p{
+    position: absolute;
+    color: black;
+    font-family: "Arial Narrow";
+    top:240px;
+
+}
+
+.img1{
+    z-index: -1;
+}
+
+/* young woman imagining things while reading e-book */
+
+.readingImage{
+    position: absolute;
+    width: 933px;
+    height: 791px;
+    left: 583px;
+    top: 54px;
+    z-index: 1;
+    background: url(../Diagon-Alley/assets/images/youngWomen.svg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.blueLight{
+    position: absolute;
+    width: 1269px;
+    height: 1036px;
+    left: 1660.17px;
+    top: 1227.67px;
+
+    /* light-blue */
+
+    background: #D0EBFF;
+    transform: rotate(-154.48deg);
+}
+
+
