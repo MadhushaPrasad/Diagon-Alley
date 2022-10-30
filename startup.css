@@ -35,4 +35,15 @@
     transform: rotate(-154.48deg);
 }
 
+.blueLight{
+    position: absolute;
+    width: 1269px;
+    height: 1036px;
+    left: 1660.17px;
+    top: 1227.67px;
 
+    /* light-blue */
+
+    background: #D0EBFF;
+    transform: rotate(-154.48deg);
+}
