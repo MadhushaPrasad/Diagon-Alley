@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2.3.2
 
       - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        uses:
         with:
           server: ${{secrets.ftp_server}}
           username: ${{secrets.ftp_usrname}}
