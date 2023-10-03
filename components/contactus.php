@@ -5,6 +5,7 @@
        <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
+
                     <input type="text" name="txtName" class="form-control" placeholder="First Name" value="" />
                 </div><br>
                 <div class="form-group">
@@ -18,7 +19,7 @@
                 </div><br>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <textarea name="txtemsg" class="form-control" placeholder="message" style="width: 100%; height: 150px;"></textarea>
+                        <textarea name="txtemsg" class="form-control" placeholder="message" style="width: 100%; height: 100px;"></textarea>
                     </div><br>
                 </div>
                  </div>
