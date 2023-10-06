@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    max-width: 1440px;
+    max-width: 100vw;
+    margin: 0 auto;
+    height: 800px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo{
+    margin-left: -20px;
+    margin-bottom: 8px;
+}
+
+.component1{
+    width: 45%;
+    height: 800px;
+    background-color: #fff;
+    /* display: flex; */
+    /* padding: 174px 100px ; */
+    padding:25px 30px 25px 60px;
+    /* padding-left: 100px; */
+}
+.component2{
+    width: 55%;
+    height: 800px;
+    background-color:#D0EBFF;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.component2 img{
+    margin-top: 60px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.component1 h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #1864AB;
+
+}
+
+.component1 h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #595F69;
+}
+
+.component1 label{
+    font-size: 14px;
+    font-weight: 400;
+    color: #8A9099;
+    margin-top: 10px;
+}
+
+.form input{
+    width: 420px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border: 1px solid #8A9099;
+    color: #3F434A;
+    font-weight: 500;
+}
+
+.position{
+    width: 420px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+.position label{
+    margin-top: 0;
+    margin-right: 8px;
+    font-size: 14px;
+    color: #1864AB;
+    font-weight: 400;
+}
+
+.position input{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.termscondition{
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    color: #595F69;
+    margin-top: 16px;
+}
+.termscondition input{
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.termscondition a{
+    text-decoration: none;
+    color: #1864AB;
+    /* margin-left: 8px; */
+}
+
+.component1 button{
+    background-color: #1864AB;
+    width: 420px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.signup{
+    width: 420px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0;
+    
+    
+}
+.signup p{
+    text-transform: uppercase;
+    color: #8A9099;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.6;
+    margin: 0 5px;
+}
+.signup hr{
+    width: 150px;
+    opacity: 0.6;
+
+}
+
+.socialmedia{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+
+}
+.socialmedia a{
+    /* padding: 8px 30px; */
+    padding: 7px 0;
+    border: 1px solid #E8E9EB;
+    margin-top: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #595F69;
+    width: 500;
+    font-size: 15px;
+    text-align: center;
+}
+
+.socialmedia img{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.already{
+    width: 420px;
+    margin: 10px 0;
+}
+.already p{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+}
+
+.possion-fixed{
+    position: fixed;
+    /* text-align: center; */
+}
+.text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-content h4{
+    font-size: 23px;
+    color: #1864AB;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.text-content p{
+    width: 400px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #1864AB;
+}
