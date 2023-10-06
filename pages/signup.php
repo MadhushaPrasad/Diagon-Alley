@@ -11,7 +11,6 @@
 </head>
 <body>
     <div class="container">
-    
         <div class="component1">
             <img id="logo" src="../assets/img/logo.svg" alt="logo" width="182px" height="40px" >
            
@@ -32,18 +31,11 @@
                 <input type="password" name="" id="" placeholder="********">
             </div>
 
-        
-
             <div class="position">
-                
-                
                 <input type="radio" name="position" id="">
                 <label for="Student">Student</label>
-
                 <input type="radio" name="position" id="">
                 <label for="Student">Admin</label>
-                
-
             </div>
             
             <div class="termscondition">
@@ -57,6 +49,7 @@
             <p>Or SIGN up with</p>
                 <hr>
             </div>
+
             <div class="socialmedia">
                 <a href="#"> <img src="../assets/img/google-icon.png" alt="">Sign up with Google</a>
                 <a href="#"><img src="../assets/img/facebook-icon.png" alt=""> Sign up with Facebook</a>
@@ -67,19 +60,15 @@
             </div>
         </div>
             
-        
         <div class="component2">
-
         <div class="possion-fixed">
             <img src="../assets/img/young couple sitting on the floor and reading books.svg" alt="couple image" width="550px">
-
             <div class="text-content">
                 <h4>Books are a uniquely portable magic.</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae cras at</p>
             </div>
             </div>
-        </div>
-        
+        </div> 
     </div>
 </body>
 </html>
