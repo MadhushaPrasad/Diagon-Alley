@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="component1">
+        <div class="component-1">
             <img id="logo" src="../assets/img/logo.svg" alt="logo" width="182px" height="40px" >
            
             <h2>Get Started!</h2>
@@ -38,19 +38,19 @@
                 <label for="Student">Admin</label>
             </div>
             
-            <div class="termscondition">
+            <div class="terms-condition">
                 <input type="checkbox" name="" id="">
                 <p>I accept <a href="#">Terms and Conditions</a></p>
             </div>
 
             <button type="submit">Create Account</button>
-            <div class="signup">   
+            <div class="sign-up">   
             <hr>
             <p>Or SIGN up with</p>
                 <hr>
             </div>
 
-            <div class="socialmedia">
+            <div class="social-media">
                 <a href="#"> <img src="../assets/img/google-icon.png" alt="">Sign up with Google</a>
                 <a href="#"><img src="../assets/img/facebook-icon.png" alt=""> Sign up with Facebook</a>
             </div>
@@ -60,8 +60,8 @@
             </div>
         </div>
             
-        <div class="component2">
-        <div class="possion-fixed">
+        <div class="component-2">
+        <div class="position-fixed">
             <img src="../assets/img/young couple sitting on the floor and reading books.svg" alt="couple image" width="550px">
             <div class="text-content">
                 <h4>Books are a uniquely portable magic.</h4>
