@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
 .container{
     max-width: 1440px;
@@ -14,19 +13,16 @@
     flex-direction: row;
     justify-content: space-between;
 }
-
 #logo{
     margin-left: -20px;
     margin-bottom: 8px;
 }
-
 .component-1{
     width: 45%;
     height: 800px;
     background-color: #fff;
     padding:25px 30px 25px 60px;
 }
-
 .component-2{
     width: 55%;
     height: 800px;
@@ -35,36 +31,29 @@
     flex-direction: column;
     align-items: center;
 }
-
 .component-2 img{
     margin-top: 60px;
 }
-
 .form{
     display: flex;
     flex-direction: column;
 }
-
 .component-1 h2{
     font-size: 36px;
     font-weight: 500;
     color: #1864AB;
-
 }
-
 .component-1 h4{
     font-size: 20px;
     font-weight: 400;
     color: #595F69;
 }
-
 .component-1 label{
     font-size: 14px;
     font-weight: 400;
     color: #8A9099;
     margin-top: 10px;
 }
-
 .form input{
     width: 420px;
     height: 40px;
@@ -76,7 +65,6 @@
     color: #3F434A;
     font-weight: 500;
 }
-
 .position{
     width: 420px;
     height: 15px;
@@ -92,13 +80,11 @@
     color: #1864AB;
     font-weight: 400;
 }
-
 .position input{
     width: 16px;
     height: 16px;
     margin-right: 5px;
 }
-
 .terms-condition{
     display: flex;
     font-size: 14px;
@@ -111,12 +97,10 @@
     width: 16px;
     height: 16px;
 }
-
 .terms-condition a{
     text-decoration: none;
     color: #1864AB;
 }
-
 .component-1 button{
     background-color: #1864AB;
     width: 420px;
@@ -149,18 +133,14 @@
 .sign-up hr{
     width: 150px;
     opacity: 0.6;
-
 }
-
 .social-media{
     width: 420px;
     display: flex;
     flex-direction: column;
     vertical-align: middle;
-
 }
 .social-media a{
-    /* padding: 8px 30px; */
     padding: 7px 0;
     border: 1px solid #E8E9EB;
     margin-top: 16px;
@@ -171,13 +151,11 @@
     font-size: 15px;
     text-align: center;
 }
-
 .social-media img{
     width: 16px;
     height: 16px;
     margin-right: 10px;
 }
-
 .already{
     width: 420px;
     margin: 10px 0;
@@ -188,10 +166,8 @@
     font-weight: 500;
     text-align: center;
 }
-
 .position-fixed{
     position: fixed;
-    /* text-align: center; */
 }
 .text-content{
     display: flex;
@@ -205,9 +181,7 @@
     font-weight: 500;
     text-align: center;
     margin-top: 10px;
-
 }
-
 .text-content p{
     width: 400px;
     font-size: 14px;
@@ -216,9 +190,7 @@
     text-align: center;
     color: #1864AB;
 }
-
 @media screen and (max-width: 1068px) {
-
     .component-1{
         width: 100%;
         padding:25px 30px 25px 25px;
@@ -226,64 +198,45 @@
     .component-2{
         width: 50%;
     }
-
     .form input{
         width: 550px;
     }
-
     .component-1 button{
         width: 550px;
     }
-
     .text-content h4{
-        /* width: 50px; */
         font-size: 16px;
-
     }
-
     .text-content p{
         width: 300px;
     }
-
 }
-
 @media screen and (max-width: 900px) {
-
     .component-1{
         width: 100%;
     }
-
     .form input{
         width: 550px;
     }
-
     .component-1 button{
         width: 550px;
     }
-
     .component-2 {
         display: none;
     }
-
 }
-
 @media screen and (max-width: 468px) {
-
     .component-1{
         width: 100%;
         padding:25px 30px 25px 25px;
     }
-
     .form input{
         width: 400px;
     }
-
     .component-1 button{
         width: 400px;
-    }
-    
+    } 
     .component-2 {
         display: none;
     }
-
 }
