@@ -44,6 +44,13 @@
     margin: 5px 0;
     border: 1px solid #ccc;
 }
+.error-msg{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    color: red;
+    padding-left: 5px;
+}
 .contact-form .btnContact
 {
     width: 274px;
