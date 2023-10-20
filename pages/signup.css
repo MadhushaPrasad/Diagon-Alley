@@ -1,242 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --light-blue: #D0EBFF;
+    --dark-blue: #1864AB;
+    --Body-Dark: #595F69;
+    --Body-Light: #8A9099;
+    --input-text: #3F434A;
+    --font: 'Poppins', sans-serif;
 }
 .container{
     max-width: 1440px;
-    max-width: 100vw;
     margin: 0 auto;
-    height: 800px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
-#logo{
-    margin-left: -20px;
-    margin-bottom: 8px;
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
-.component-1{
-    width: 45%;
-    height: 800px;
-    background-color: #fff;
-    padding:25px 30px 25px 60px;
+.section-left{
+    padding: 74px 100px;
 }
-.component-2{
-    width: 55%;
-    height: 800px;
-    background-color:#D0EBFF;
+.section__right{
+    padding: 74px 50px;
+    background-color: var(--light-blue);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
-.component-2 img{
-    margin-top: 60px;
+.section-left-1 img{
+    margin-bottom: 37px;
 }
-.form{
-    display: flex;
-    flex-direction: column;
-}
-.component-1 h2{
+.section-left-1-mainText{
+    color: var(--dark-blue);
+    font-family: var(--font);
     font-size: 36px;
     font-weight: 500;
-    color: #1864AB;
+    line-height: 40px;
+    margin-bottom: 8px;
 }
-.component-1 h4{
+.section-left-1-subText{
+    color: var(--Body-Dark);
+    font-family: var(--font);
     font-size: 20px;
     font-weight: 400;
-    color: #595F69;
+    line-height: 28px;
+    margin-bottom: 24px;
 }
-.component-1 label{
+.section-left-2 form{
+    display: flex;
+    flex-direction: column;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 23px;
+}
+form div label{
+    color: var(--Body-Light);
+    font-family: var(--font);
     font-size: 14px;
     font-weight: 400;
-    color: #8A9099;
-    margin-top: 10px;
+    margin-bottom: 6px;
 }
-.form input{
-    width: 420px;
+form div input{
+    width: 80%;
     height: 40px;
     border-radius: 10px;
+    border: 1px solid var(--Body-Light);
+    color: var(--input-text);
+    font-family: var(--font);
     font-size: 14px;
-    padding: 5px 10px;
-    margin-top: 5px;
-    border: 1px solid #8A9099;
-    color: #3F434A;
-    font-weight: 500;
+    font-weight: 400;
+    padding: 0 8px;
 }
-.position{
-    width: 420px;
-    height: 15px;
+form div:last-child{
+    margin-bottom: 0;
+}
+.section-left-3{
     display: flex;
-    justify-content: center;
+    width: 80%;
+    gap: 24px;
     align-items: center;
-    margin-top: 16px;
+    justify-content: center;
+    margin-top: 9px;
 }
-.position label{
-    margin-top: 0;
-    margin-right: 8px;
-    font-size: 14px;
-    color: #1864AB;
-    font-weight: 400;
-}
-.position input{
-    width: 16px;
-    height: 16px;
-    margin-right: 5px;
-}
-.terms-condition{
+.student, .admin{
     display: flex;
+    height: 40px;
+    align-items: center;
+    gap: 6px;
+}
+.section-left-3 label{
+    font-family: var(--font);
+    color: var(--dark-blue);
     font-size: 14px;
     font-weight: 400;
-    color: #595F69;
-    margin-top: 16px;
 }
-.terms-condition input{
-    margin-right: 8px;
+.section-left-3 input{
+    appearance: none;
     width: 16px;
     height: 16px;
+    border-radius: 50%;
+    outline: 3px solid var(--dark-blue);
 }
-.terms-condition a{
-    text-decoration: none;
-    color: #1864AB;
+.section-left-3 input:checked{
+    border: 1px solid #fff;
+    background: var(--dark-blue);
 }
-.component-1 button{
-    background-color: #1864AB;
-    width: 420px;
-    height: 40px;
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 500;
-    border-radius: 10px;
-    border: none;
-    margin-top: 12px;
+.password img, .confirmPassword img{
+    margin-left: -35px;
     cursor: pointer;
 }
 .sign-up{
-    width: 420px;
-    height: 15px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    margin: 16px 0;  
+    width: 80%;
+    margin: 24px 0;
 }
 .sign-up p{
+    color: var(--Body-Light);
+    margin: 0 20px;
     text-transform: uppercase;
-    color: #8A9099;
+    font-family: var(--font);
     font-size: 12px;
     font-weight: 400;
-    opacity: 0.6;
-    margin: 0 5px;
+    text-align: center;
+    width: 120px;
 }
 .sign-up hr{
-    width: 150px;
-    opacity: 0.6;
+    width: 40%;
+    height: 2px;
 }
-.social-media{
-    width: 420px;
-    display: flex;
-    flex-direction: column;
-    vertical-align: middle;
-}
-.social-media a{
-    padding: 7px 0;
-    border: 1px solid #E8E9EB;
-    margin-top: 16px;
+.create-account, .social-media button{
+    width: 80%;
+    height: 40px;
     border-radius: 10px;
-    text-decoration: none;
-    color: #595F69;
-    width: 500;
+    cursor: pointer;
+    font-family: var(--font);
     font-size: 15px;
-    text-align: center;
-}
-.social-media img{
-    width: 16px;
-    height: 16px;
-    margin-right: 10px;
-}
-.already{
-    width: 420px;
-    margin: 10px 0;
-}
-.already p{
-    font-size: 16px;
-    color: #000;
     font-weight: 500;
-    text-align: center;
 }
-.position-fixed{
-    position: fixed;
+.create-account{
+    background-color: var(--dark-blue);
+    color: #fff;
+    border: none;
 }
-.text-content{
+.social-media button{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #fff;
+    color: var(--Body-Dark);
+    border: 1px solid #E8E9EB;
+    margin-bottom: 8px;
 }
-.text-content h4{
-    font-size: 23px;
-    color: #1864AB;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 10px;
+.section-left-4{
+    margin-bottom: 19px;
+    margin-top: 9px;
 }
-.text-content p{
-    width: 400px;
+.section-left-4 label{
+    font-family: var(--font);
     font-size: 14px;
     font-weight: 400;
-    line-height: 18px;
+}
+.section-left-4 label span{
+    color: var(--dark-blue);
+}
+.already p{
+    width: 80%;
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
     text-align: center;
-    color: #1864AB;
 }
-@media screen and (max-width: 1068px) {
-    .component-1{
-        width: 100%;
-        padding:25px 30px 25px 25px;
+.text-content h4{
+    color: var(--dark-blue);
+    font-family: var(--font);
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.text-content p{
+    color: var(--dark-blue);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+    width: 400px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.hoverSection{
+    width: 140px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.hoverSection a{
+    background-color: rgba(9, 39, 67, 0.1);
+    color: var(--dark-blue);
+    padding: 9px;
+    border-radius: 10px;
+}
+.hoverSection a > i{
+    width: 16px;
+    height: 100%;
+}
+.middleCircles{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.round-one, .round-three{
+    width: 10px;
+    height: 10px;
+    background-color: var(--dark-blue);
+    opacity: 0.1;
+    border-radius: 50%;
+}
+.round-two{
+    width: 16px;
+    height: 16px;
+    background-color: var(--dark-blue);
+    border-radius: 50%;
+}
+@media(max-width: 1200px){
+    .section-left{
+        padding: 40px 50px;
+        }
+        .sign-up{
+            width: 90%;
+        }
+        form div input{
+            width: 90%;
+        }
+        .section-left-3{
+            width: 90%;
+        }
+        .create-account, .social-media button{
+            width: 90%;
+        }
+        .already p{
+            width: 90%;
+        }
+        .section__right{
+            padding: 40px 50px; 
+        }
+}
+@media(max-width: 1024px){
+    .sign-up{
+        width: 95%;
     }
-    .component-2{
-        width: 50%;
+    form div input{
+        width: 95%;
     }
-    .form input{
-        width: 550px;
+   .section-left{
+    padding: 60px 50px;
     }
-    .component-1 button{
-        width: 550px;
+    .section-left-3{
+        width: 95%;
     }
-    .text-content h4{
-        font-size: 16px;
+    .create-account, .social-media button{
+        width: 95%;
     }
-    .text-content p{
-        width: 300px;
+    .already p{
+        width: 95%;
+    }
+    .section__right{
+        padding: 60px 50px; 
+    }
+    .password img, .confirmPassword img{
+        display: inline-block;
+        margin-left: -35px;
     }
 }
-@media screen and (max-width: 900px) {
-    .component-1{
-        width: 100%;
+@media(max-width: 768px){
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
     }
-    .form input{
-        width: 550px;
-    }
-    .component-1 button{
-        width: 550px;
-    }
-    .component-2 {
+    .section__right{
         display: none;
     }
 }
-@media screen and (max-width: 468px) {
-    .component-1{
-        width: 100%;
-        padding:25px 30px 25px 25px;
-    }
-    .form input{
-        width: 400px;
-    }
-    .component-1 button{
-        width: 400px;
-    } 
-    .component-2 {
-        display: none;
-    }
+@media(max-width: 568px){
+    .section-left{
+        padding: 30px 30px;
+        }
 }
