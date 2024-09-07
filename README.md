@@ -53,7 +53,8 @@ In this project, we are developing a web application using basic technologies.</
 
 You can contribute to the project on github. Here's how you can do it.
 
-1. Give a star and Fork the repository
+1. Fork the repository and give a star
+
 2. Clone it on your local machine
 
   ```
