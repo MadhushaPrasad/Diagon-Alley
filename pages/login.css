@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --light-blue: #d0ebff;
+  --dark-blue: #1864ab;
+  --Body-Dark: #595f69;
+  --Body-Light: #8a9099;
+  --input-text: #3f434a;
+  --font: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.section-left {
+  padding: 74px 100px;
+}
+.section__right {
+  padding: 74px 50px;
+  background-color: var(--light-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-left-1 img {
+  margin-bottom: 37px;
+}
+.section-left-1-mainText {
+  color: var(--dark-blue);
+  font-family: var(--font);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-bottom: 8px;
+}
+.section-left-1-subText {
+  color: var(--Body-Dark);
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+.section-left-2 form {
+  display: flex;
+  flex-direction: column;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 23px;
+}
+form div label {
+  color: var(--Body-Light);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+form div input {
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid var(--Body-Light);
+  color: var(--input-text);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 8px;
+}
+form div:last-child {
+  margin-bottom: 0;
+}
+.section-left-3 {
+  display: flex;
+  width: 80%;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9px;
+}
+.student,
+.admin {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  gap: 6px;
+}
+.section-left-3 label {
+  font-family: var(--font);
+  color: var(--dark-blue);
+  font-size: 14px;
+  font-weight: 400;
+}
+.section-left-3 input {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  outline: 3px solid var(--dark-blue);
+}
+.section-left-3 input:checked {
+  border: 1px solid #fff;
+  background: var(--dark-blue);
+}
+.password img,
+.confirmPassword img {
+  margin-left: -35px;
+  margin-bottom: -7px;
+  cursor: pointer;
+}
+.sign-up {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  margin: 24px 0;
+}
+.sign-up p {
+  color: var(--Body-Light);
+  margin: 0 20px;
+  text-transform: uppercase;
+  font-family: var(--font);
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  width: 120px;
+}
+.sign-up hr {
+  width: 40%;
+  height: 2px;
+}
+.create-account,
+.social-media button {
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 500;
+}
+.create-account {
+  margin-top: 20px;
+  background-color: var(--dark-blue);
+  color: #fff;
+  border: none;
+}
+.social-media button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #fff;
+  color: var(--Body-Dark);
+  border: 1px solid #e8e9eb;
+  margin-bottom: 8px;
+}
+.section-left-4 {
+  margin-bottom: 19px;
+  margin-top: 9px;
+}
+.section-left-4 label {
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 400;
+}
+.section-left-4 label span {
+  color: var(--dark-blue);
+  margin-left: 165px;
+}
+.already p {
+  width: 80%;
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.text-content h4 {
+  color: var(--dark-blue);
+  font-family: var(--font);
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.text-content p {
+  color: var(--dark-blue);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  width: 400px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+.hoverSection {
+  width: 140px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.hoverSection a {
+  background-color: rgba(9, 39, 67, 0.1);
+  color: var(--dark-blue);
+  padding: 9px;
+  border-radius: 10px;
+}
+.hoverSection a > i {
+  width: 16px;
+  height: 100%;
+}
+.middleCircles {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.round-one,
+.round-three {
+  width: 10px;
+  height: 10px;
+  background-color: var(--dark-blue);
+  opacity: 0.1;
+  border-radius: 50%;
+}
+.round-two {
+  width: 16px;
+  height: 16px;
+  background-color: var(--dark-blue);
+  border-radius: 50%;
+}
+/* Styling for the form layout */
+.remember-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.checkbox-remember {
+  display: flex;
+  align-items: center;
+}
+
+/* Optional spacing between checkbox and label */
+.checkbox-remember input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Forgot password link styling */
+.forgot-password {
+  color: var(--dark-blue);
+  cursor: pointer;
+  margin-right: 120px;
+}
+
+/* Password field icon styling */
+.svg-icon {
+  margin-left: -35px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .section-left {
+    padding: 40px 50px;
+  }
+  .sign-up {
+    width: 90%;
+  }
+  form div input {
+    width: 90%;
+  }
+  .section-left-3 {
+    width: 90%;
+  }
+  .create-account,
+  .social-media button {
+    width: 90%;
+  }
+  .already p {
+    width: 90%;
+  }
+  .section__right {
+    padding: 40px 50px;
+  }
+}
+@media (max-width: 1024px) {
+  .sign-up {
+    width: 95%;
+  }
+  form div input {
+    width: 95%;
+  }
+  .section-left {
+    padding: 60px 50px;
+  }
+  .section-left-3 {
+    width: 95%;
+  }
+  .create-account,
+  .social-media button {
+    width: 95%;
+  }
+  .already p {
+    width: 95%;
+  }
+  .section__right {
+    padding: 60px 50px;
+  }
+  .password img,
+  .confirmPassword img {
+    display: inline-block;
+    margin-left: -35px;
+  }
+}
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section__right {
+    display: none;
+  }
+}
+@media (max-width: 568px) {
+  .section-left {
+    padding: 30px 30px;
+  }
+}
