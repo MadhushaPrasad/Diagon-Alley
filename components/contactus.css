@@ -1,92 +1,115 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.contact-form{  
+
+.contact-form {  
     background: #fff;
     height: 619px;
-    width: 1512px;
+    width: max;
     max-width: 600px;
     margin: 0 auto;
     justify-content: center;
 }
+
 .form-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 20Px; /* Adjust this value to increase spacing between fields */
 }
+
 .form-group {
     flex-basis: calc(50% - 10px);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
-.contact-form h3{
+
+.contact-form h3 {
     color: #000;
-    font-family: Roboto;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
     margin-top: 29px;
     margin-bottom: 20px;
     text-align: center;
 }
-.form-control{
-    border-radius:0.3rem;
-    color: var(--input-border, #9E9E9E);
-    font-family: Roboto;
-    font-size: 26px;
+
+.form-control {
+    border-radius: 0.3rem;
+    color: var(--input-border, #8A9099);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px; /* Reduced font size */
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     width: 100%;
-    padding: 10px;
-    margin: 5px 0;
+    padding: 8px; /* Reduced padding */
+    margin: 10px 0;
     border: 1px solid #ccc;
 }
-.error-msg{
-    font-family: Roboto;
+
+
+.error-msg {
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-style: normal;
     color: red;
     padding-left: 5px;
 }
-.contact-form .btnContact
-{
-    width: 274px;
-    height: 67px;
+
+/* Specific style for the message input field (textarea) */
+.contact-form textarea.form-control {
+    height: 130px; /* Increase this value to make the message input field taller */
+    resize: vertical; /* Optional: Allow users to resize the textarea vertically */
+}
+
+.contact-form .btnContact {
+    width: 275px;
+    height: 60px;
     border-radius: 15px;
     padding: 10px 20px;
-    background-color: #bd9206;
+    background-color: #E1AE2A;
     color: #fff;
     border: none;
     cursor: pointer;
     text-align: center;
-    font-family: Roboto;
+    font-family:  var(--font);
     font-size: 29px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
 }
+
 .form-group .form-control {
     margin-right: 10px;
 }
+
 .text-center {
     text-align: center;
 }
+
 @media (max-width: 768px) {
     .contact-form {
         padding: 20px;
         width: 100%;
         margin: 0 auto;
     }
+
     .form-group {
         flex-basis: 100%;
     }
+
     .form-control[type="textarea"] {
         width: 100%;
         height: 200px;
     }
+
     .form-control[type="text"] {
         width: 100%;
     }
