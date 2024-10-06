@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-blue: #d0ebff;
+  --dark-blue: #1864ab;
+  --Body-Dark: #595f69;
+  --font: "Poppins", sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section-left {
+  align-items: center;
+  padding: 74px 100px;
+  margin-left: 10px;
+}
+.section__right {
+  padding: 50px 75px;
+  background-image: url("../assets/img/vector.png");
+  background-size: 90%; /* Adjust this value to reduce the size of the background image */
+  background-position: center; /* Keep the image centered */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  min-height: 70vh;
+  margin-right: -80px;
+}
+
+.section__right img {
+  width: 100%; /* Keep the width as 100% */
+  margin-left: -100px; /* Optional: Add a negative margin to shift the image further left */
+}
+.section-left-1 img {
+  margin-bottom: 37px;
+}
+
+.section-left-1-mainText {
+  margin-top: 100px;
+  color: var(--dark-blue);
+  font-family: var(--font);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-bottom: 8px;
+}
+
+.section-left-1-subText {
+  color: var(--Body-Dark);
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.already p {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.already a {
+  color: var(--dark-blue);
+  text-decoration: none;
+  margin-top: 100px;
+}
+.already button {
+  color: var(--dark-blue);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.get-started-btn {
+  background-color: var(--dark-blue);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 400px;
+  margin-top: -500px;
+}
+
+.get-started-btn:hover {
+  background-color: #145a93;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section__right {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .already {
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center; /* Center items */
+  }
+
+  .already p {
+    margin-bottom: 10px; /* Add space between items when stacked */
+  }
+}
