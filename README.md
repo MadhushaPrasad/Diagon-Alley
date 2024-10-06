@@ -39,7 +39,8 @@ Where information not only offers solutions, but also inspires and empowers.
 We believe Diagon Alley can play a role in creating this future.
 </br>
 
-`Diagon Alley is an open library for every tech student to level up their tech knowledge by reading e-books'`
+`Diagon Alley is an open library for every tech student to level up their tech knowledge by reading e-books. Welcome to Diagon Alley, the ultimate open library designed exclusively for tech students eager to elevate their knowledge. Dive into a plethora of enlightening e-books covering a spectrum of tech subjects. Share your insights and opinions through our user-friendly feedback section. Should you encounter any webpage or community-related concerns, our dedicated contact section is just a click away. Explore the Book page for a comprehensive list of all the e-books currently available on our platform. Diagon Alley is your go-to destination for an immersive tech education experience.
+`
 </br>
 
 In this project, we are developing a web application using basic technologies.</br>
@@ -52,7 +53,8 @@ In this project, we are developing a web application using basic technologies.</
 
 You can contribute to the project on github. Here's how you can do it.
 
-1. Give a star and Fork the repository
+1. Fork the repository and give a star
+
 2. Clone it on your local machine
 
   ```
@@ -97,4 +99,5 @@ You can contribute to the project on github. Here's how you can do it.
 </br>
 <a href="https://www.figma.com/file/dz4JS3XBiGzTDGGIQ3PczB/Diagon-Alley?node-id=20%3A782" target="_blank"> Figma Link for this project</a>
 </br>
-<img src="https://user-images.githubusercontent.com/5544472/196491229-06cb8dfe-215c-481e-a3a5-56eaea008d6f.png">
+<img src="https://github.com/MadhushaPrasad/Diagon-Alley/assets/50085447/2c32165a-05e2-4256-b972-aa7c78c9c354">
+
