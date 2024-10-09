@@ -1,37 +1,36 @@
-<link href="navbar.css" rel="stylesheet">
-<header class="header">
-
-    <h2 class="logo">
-        <span class='bi bi-ladder' style='color:#ff7800'></span> Diagon alley </h2>
-
-    <nav class="navbar">
-        <a href="..">Home</a>
-        <a href="..">Books</a>
-        <a href="..">Feedback</a>
-        <a href="..">About Us</a>
-        <a href="..">Contact Us</a>
-    </nav>
-
-    <div class="icons">
-        
-        <button id="search-btn"><a href="..">Sign in</a></button>
-        <button id="login-btn"><a href="..">Register</a></button>
-        <div class="fas fa-bars" id="menu-btn"></div>
-    
+<nav class="navbar">
+    <div class="logo-container">
+        <img src="../assets/img/logo.svg" alt="Logo" class="logo">
     </div>
-    <div class="MENU">
-        <button id="login-btn"><a href="..">Home</a></button>
-        <div class="box">
-            <a href="..">Books</a> 
-        </div>
-        <div class="box">
-            <a href="..">Feedback</a>
-        </div>
-        <div class="box">
-            <a href="..">About Us</a>
-        </div> 
-        <div class="box">
-            <a href="..">Contact Us</a>
-        </div>
+
+    <!-- Hamburger Menu (visible on mobile screens) -->
+    <div class="hamburger" onclick="toggleNav()">
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
-</header>
+
+    <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Feedback</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+
+    <div class="auth-buttons">
+        <button class="sign-in">Sign In</button>
+        <button class="register">Register</button>
+    </div>
+</nav>
+
+<!-- Import the CSS file -->
+<link rel="stylesheet" href="navbar.css">
+
+<script>
+function toggleNav() {
+  const navLinks = document.querySelector('.nav-links');
+  navLinks.classList.toggle('active');
+}
+</script>
+
