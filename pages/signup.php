@@ -29,14 +29,14 @@
                     <div class="password">
                         <label for="password">Password</label>
                         <span>
-                        <input type="password" name="password" id="password" placeholder="********">
+                        <input type="password" name="password" id="password" placeholder="">
                         <img src="../assets/img/Hide.svg" alt="hide-icon">
                     </span>
                     </div>
                     <div class="confirmPassword">
                         <label for="">Confirm Password</label>
                         <span>
-                        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="********">
+                        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="">
                         <img src="../assets/img/Hide.svg" alt="hide-icon">
                     </span>
                     </div>
