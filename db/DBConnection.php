@@ -1,12 +1,32 @@
 <?php
+
+// Database configuration
 $host = 'localhost';
-$userName = "root";
-$password = "";
-$database = "DiagonAlley";
-$port = "3306";
+$username = 'root';
+$password = '';
+$database = 'DiagonAlley';
+$port = 3306;
 
-$connection = new mysqli($host, $userName, $password, $database, $port);
+// Establish a new database connection
+try {
+    $connection = new mysqli($host, $username, $password, $database, $port);
 
-if ($connection->connect_error) {
-    die("Connection Failed:" . $connection->connect_error);
+    // Check connection
+    if ($connection->connect_error) {
+        throw new Exception("Connection failed: " . $connection->connect_error);
+    }
+
+    // Your database operations go here
+
+} catch (Exception $e) {
+    // Handle connection error
+    error_log($e->getMessage()); // Log the error for debugging purposes
+    echo "An error occurred while connecting to the database. Please try again later.";
+} finally {
+    // Close the connection if it's open
+    if (isset($connection) && $connection->ping()) {
+        $connection->close();
+    }
 }
+
+?>
