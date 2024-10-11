@@ -68,7 +68,19 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "IT21158186",
+      "name": "Deneth Pinsara",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99629453?v=4",
+      "profile": "http://it21158186.github.io",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
     }
   ],
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }
