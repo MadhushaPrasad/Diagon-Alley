@@ -32,7 +32,7 @@
 <footer>
   <div class="footer-container"  >
     <div class="footer-logo">
-      <img src="../assets/img/logo.svg" alt="Diagon Alley Logo">
+      <img src="../../assets/img/logo.svg" alt="Diagon Alley Logo">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit nunc facilisis amet sed justo pellentesque. Enim congue nunc at auctor et leo, diam faucibus tellus.</p>
     </div>
 
@@ -82,5 +82,5 @@
     }
 </script>
 
-<link href="contactus.css" rel="stylesheet">
+<link href="../../components/contactus.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">

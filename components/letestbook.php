@@ -4,48 +4,48 @@
 </div></center><br>
 
 <div class="book">
-<div class=" reg">
-<img class="card-img" src="../assets/images/book.png">
+<div class="reg">
+<img class="card-img" src="../../assets/images/book.png">
 <h2>Java overload method </h2>
 </div>
 
-<div class=" reg">
-<img class="card-img" src="../assets/images/book.png">
+<div class="reg">
+<img class="card-img" src="../../assets/images/book.png">
 <h2>Java overload method</h2>
 </div>
 
-<div class=" reg">
-<img class="card-img" src="../assets/images/book.png">
+<div class="reg">
+<img class="card-img" src="../../assets/images/book.png">
 <h2>Java overload method</h2>
 </div>
 
-<div class=" reg">
-<img class="card-img" src="../assets/images/book.png">
+<div class="reg">
+<img class="card-img" src="../../assets/images/book.png">
 <h2>Java overload method </h2>
 </div>
     
-<div class=" reg">
-<img class="card-img" src="../assets/images/book.png">
+<div class="reg">
+<img class="card-img" src="../../assets/images/book.png">
 <h2>Java overload method</h2>
 </div>
     
-<div class=" reg">
-<img class="card-img" src="../assets/images/book.png">
+<div class="reg">
+<img class="card-img" src="../../assets/images/book.png">
 <h2>Java overload method</h2>
 </div>
 
-<div class=" reg">
-<img class="card-img" src="../assets/images/book.png">
+<div class="reg">
+<img class="card-img" src="../../assets/images/book.png">
 <h2>Java overload method </h2>
 </div>
     
-<div class=" reg">
-<img class="card-img" src="../assets/images/book.png">
+<div class="reg">
+<img class="card-img" src="../../assets/images/book.png">
 <h2>Java overload method</h2>
 </div>
     
-<div class=" reg">
-<img class="card-img" src="../assets/images/book.png">
+<div class="reg">
+<img class="card-img" src="../../assets/images/book.png">
 <h2>Java overload method</h2>
 </div>
 </div>

@@ -158,6 +158,8 @@ form div:last-child {
   font-weight: 500;
 }
 .create-account {
+  text-decoration: none;
+  text-align: center;
   margin-top: 20px;
   background-color: var(--dark-blue);
   color: #fff;
