@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="login grid">
+    <div class="grid login">
         <div class="section-left">
             <div class="section-left-1">
                 <img src="../assets/img/logo.svg" alt="" class="section-left-1-logo">
@@ -52,7 +52,7 @@
                 <button><img src="../assets/img/google-icon.png" alt="Google icon"> Sign in with Google</button>
             </div>
             <div class="already">
-                <p>New user? <a href="#">Create an account</a></p>
+                <p>New user? <a href="./signup.php">Create an account</a></p>
             </div>
         </div>
         <div class="section__right">
@@ -62,13 +62,13 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae cras at</p>
             </div>
             <div class="hoverSection">
-                <a href="#"><i class="fa-solid fa-chevron-left"></i></a>
+                <a href="#"><i class="fa-chevron-left fa-solid"></i></a>
                 <div class="middleCircles">
                     <div class="round-one"></div>
                     <div class="round-two"></div>
                     <div class="round-three"></div>
                 </div>
-                <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                <a href="#"><i class="fa-chevron-right fa-solid"></i></a>
             </div>
         </div>
     </div>

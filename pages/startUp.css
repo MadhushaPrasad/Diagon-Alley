@@ -13,23 +13,27 @@
 }
 
 .grid {
+  height: 100vh;
   display: grid;
+  justify-content: center;
+  align-items: center;
   grid-template-columns: repeat(2, 1fr);
 }
-
 .section-left {
-  align-items: center;
   padding: 74px 100px;
-  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 .section__right {
-  padding: 50px 75px;
-  background-image: url("../assets/img/vector.png");
-  background-size: 90%; /* Adjust this value to reduce the size of the background image */
-  background-position: center; /* Keep the image centered */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  min-height: 70vh;
-  margin-right: -80px;
+  padding: 74px 50px;
+  background-color: var(--light-blue);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  height: 100vh;
 }
 
 .section__right img {
