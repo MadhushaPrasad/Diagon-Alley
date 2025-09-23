@@ -41,7 +41,7 @@
                 </div>
                 <a href="#" class="forgot-password">Forgot Password?</a>
             </div>
-            <button class="create-account">Create Account</button>
+            <a href='../pages/student/home.php' class="create-account">Sign In</a>
             <div class="sign-up">
                 <hr>
                 <p>Or SIGN in with</p>

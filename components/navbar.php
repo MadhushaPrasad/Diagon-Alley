@@ -1,6 +1,6 @@
 <nav class="navbar">
     <div class="logo-container">
-        <img src="../assets/img/logo.svg" alt="Logo" class="logo">
+        <img src="../../assets/img/logo.svg" alt="Logo" class="logo">
     </div>
 
     <!-- Hamburger Menu (visible on mobile screens) -->
@@ -25,7 +25,7 @@
 </nav>
 
 <!-- Import the CSS file -->
-<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="../../components/navbar.css">
 
 <script>
 function toggleNav() {
