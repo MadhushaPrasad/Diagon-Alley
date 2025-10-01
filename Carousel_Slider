@@ -1,0 +1,66 @@
+1. HTML Structure
+
+<section class="other-books my-8">
+  <h2 class="text-2xl font-semibold mb-4">Other Books You Might Like</h2>
+  
+  <div class="relative">
+    <!-- Carousel container -->
+    <div id="booksCarousel" class="flex overflow-x-auto gap-4 scrollbar-hide scroll-smooth">
+      <!-- Single Book Card -->
+      <div class="min-w-[200px] flex-shrink-0 bg-white rounded-lg shadow-md p-4">
+        <img src="book1.jpg" alt="Book 1" class="w-full h-48 object-cover rounded-md mb-2">
+        <h3 class="font-medium text-lg">Book Title 1</h3>
+        <p class="text-sm text-gray-500">Author Name</p>
+      </div>
+
+      <div class="min-w-[200px] flex-shrink-0 bg-white rounded-lg shadow-md p-4">
+        <img src="book2.jpg" alt="Book 2" class="w-full h-48 object-cover rounded-md mb-2">
+        <h3 class="font-medium text-lg">Book Title 2</h3>
+        <p class="text-sm text-gray-500">Author Name</p>
+      </div>
+
+      <!-- Add more book cards as needed -->
+    </div>
+
+    <!-- Navigation buttons -->
+    <button id="prevBtn" class="absolute left-0 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow-md hover:bg-gray-100">
+      &#10094;
+    </button>
+    <button id="nextBtn" class="absolute right-0 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow-md hover:bg-gray-100">
+      &#10095;
+    </button>
+  </div>
+</section>
+
+
+---
+
+2. CSS (Tailwind + custom tweaks)
+
+/* Hide default scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+---
+
+3. JavaScript for Navigation
+
+const carousel = document.getElementById('booksCarousel');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+
+const scrollAmount = 220; // Adjust based on card width + gap
+
+nextBtn.addEventListener('click', () => {
+  carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+});
+
+prevBtn.addEventListener('click', () => {
+  carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+});
