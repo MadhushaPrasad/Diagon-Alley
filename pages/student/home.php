@@ -2,44 +2,54 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/latest-books.css">
 </head>
 
 <body>
-  <!--header start-->
-  <?php
+    <!--header start-->
+    <?php
   include '../../components/navbar.php';
   ?>
-  <!--header end-->
+    <!--header end-->
 
-  <!--who we are section start-->
-  <?php
+    <!--who we are section start-->
+    <?php
   include '../../components/hero-section.php';
   ?>
-  <!--who we are section end-->
+    <!--who we are section end-->
 
-  <!--who we are section start-->
-  <?php
+    <!--who we are section start-->
+    <?php
   include '../../components/whoWeAreSection.php';
   ?>
-  <!--who we are section end-->
+    <!--who we are section end-->
 
 
-  <!--our contributors section start-->
-  <?php
+    <!--latest books section start-->
+    <?php
+  include '../../components/latest-books.php';
+  ?>
+    <!--latest books section end-->
+
+
+    <!--our contributors section start-->
+    <?php
   include '../../components/contri.php';
   ?>
-  <!--our contributors section end-->
+    <!--our contributors section end-->
 
 
-  <!--contact us section start-->
-  <?php
+    <!--contact us section start-->
+    <?php
   include '../../components/contactus.php';
   ?>
-  <!--contact us section end-->
+    <!--contact us section end-->
+
+    <script src="../../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
