@@ -62,25 +62,25 @@
   line-height: 28px;
   margin-bottom: 24px;
 }
+/* You can replace the old .startup-actions block with this one */
 
-.already p {
-  font-family: var(--font);
-  font-size: 16px;
-  font-weight: 400;
-  margin-top: 30px;
+.startup-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px; 
+    margin-top: 40px;
 }
 
-.already a {
-  color: var(--dark-blue);
-  text-decoration: none;
-  margin-top: 100px;
+.startup-actions p {
+    margin: 0;
+    font-family: var(--font);
+    font-size: 16px;
+    white-space: nowrap; /* This prevents the "Already user? Login" text from wrapping */
 }
-.already button {
-  color: var(--dark-blue);
-  font-family: var(--font);
-  font-size: 16px;
-  font-weight: 400;
-  color: #fff;
+
+.startup-actions a {
+    text-decoration: none;
 }
 
 .get-started-btn {
@@ -93,8 +93,7 @@
   font-weight: 500;
   border-radius: 10px;
   cursor: pointer;
-  margin-left: 400px;
-  margin-top: -500px;
+  white-space: nowrap; /* This prevents the "Get Started" button text from wrapping */
 }
 
 .get-started-btn:hover {
