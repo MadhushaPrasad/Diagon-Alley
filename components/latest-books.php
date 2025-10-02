@@ -1,7 +1,7 @@
 <?php
-<section class="latest-books-section">
+<section class="latest-books py-5">
     <div class="container">
-        <h1 class="text-center mb-5">Latest Books</h1>
+        <h2 class="text-center mb-4">Latest Books</h2>
         
         <div id="latestBooksCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
