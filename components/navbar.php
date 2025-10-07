@@ -1,3 +1,13 @@
+<?php
+function active($currect_page){
+  $url_array =  explode('/', $_SERVER['REQUEST_URI']) ;
+  $url = end($url_array);  
+  if($currect_page == $url){
+      echo 'active';
+  } 
+}
+?>
+
 <nav class="navbar">
     <div class="logo-container">
         <img src="../../assets/img/logo.svg" alt="Logo" class="logo">
@@ -11,11 +21,11 @@
     </div>
 
     <ul class="nav-links">
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Books</a></li>
-        <li><a href="#">Feedback</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a class="<?php active('home.php');?>" href="../student/home.php">Home</a></li>
+        <li><a class="<?php active('book.php');?>" href="../student/book.php">Books</a></li>
+        <li><a class="<?php active('feedback.php');?>" href="#">Feedback</a></li>
+        <li><a class="<?php active('about.php');?>" href="#">About Us</a></li>
+        <li><a class="<?php active('contact.php');?>" href="#">Contact Us</a></li>
     </ul>
 
     <div class="auth-buttons">
