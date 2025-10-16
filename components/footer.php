@@ -1,4 +1,4 @@
-<link href="../components/footer.css" rel="stylesheet">
+<link href="../../components/footer.css" rel="stylesheet">
 
 <!-- Footer Section -->
 <footer>

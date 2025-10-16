@@ -26,6 +26,12 @@
   include '../../components/contactus.php';
   ?>
   <!--contact us section end-->
+
+  <!-- footer us section start-->
+  <?php
+  include '../../components/footer.php';
+  ?>
+  <!-- footer us section end-->
 </body>
 
 </html>
